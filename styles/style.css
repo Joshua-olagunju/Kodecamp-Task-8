@@ -6,13 +6,13 @@
 }
 
 :root {
-  --primary-color: #ff4c4c; /* Vibrant Red for buttons & highlights */
+  --primary-color: #efff79; /* Vibrant Red for buttons & highlights */
   --secondary-color: #ff9f1c; /* Warm Orange for accents */
-  --background-color: #fdf6f0; /* Light, clean background */
+  --background-color: #ffffff; /* Light, clean background */
   --text-color: #1a1a1a; /* Dark text for readability */
   --muted-color: #6e6e6e; /* Darker muted color for visibility */
-  --highlight-color: #6c5ce7; /* Accent for hover / links */
-  --card-bg: #ffffff; /* Light card background */
+  --highlight-color: #f2f5d6; /* Accent for hover / links */
+  --card-bg: #8b8b8b; /* Light card background */
   --card-shadow: rgba(0, 0, 0, 0.15); /* Soft shadow for cards */
 }
 
@@ -71,9 +71,6 @@ body {
   transition: color 0.3s ease;
 }
 
-.navbar-nav .nav-link:hover {
-  color: var(--primary-color) !important;
-}
 
 /* Underline hover effect */
 .navbar-nav .nav-link::after {
@@ -83,7 +80,7 @@ body {
   bottom: -3px;
   width: 0;
   height: 2px;
-  background-color: var(--primary-color);
+  background-color: black;
   transition: width 0.3s ease;
 }
 
@@ -97,10 +94,6 @@ body {
   transition: color 0.3s ease;
 }
 
-.navbar .bi:hover {
-  color: var(--primary-color);
-}
-
 /* ===================== */
 /* Hero Section */
 /* ===================== */
@@ -111,7 +104,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url(../assest/images/hero_image2.jpg);
+  background-image: url(../assest/images/cristofer-maximilian-AqLIkOzWDAk-unsplash.jpg);
   background-size: cover; /* show full image */
   background-position: center;
   background-repeat: no-repeat;
@@ -147,7 +140,7 @@ body {
   padding: 12px 30px;
   font-size: 1rem;
   font-weight: 600;
-  color: #fff;
+  color: #141414;
   background: var(--primary-color);
   border-radius: 8px;
   text-decoration: none;
@@ -156,6 +149,7 @@ body {
 
 .cta-btn:hover {
   background: var(--highlight-color);
+  color: #2c2c2c;
 }
 
 /* ===================== */
@@ -173,11 +167,11 @@ body {
 }
 .filter_btn:hover {
   background: var(--primary-color);
-  color: #fff;
+  color: #171717;
 }
 .filter_btn.active {
   background: var(--primary-color);
-  color: #fff;
+  color: #262626;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -200,11 +194,6 @@ body {
   color: var(--text-color);
 }
 
-.product-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 20px var(--card-shadow);
-}
-
 .product-card img {
   height: 200px;
   object-fit: contain;
@@ -224,24 +213,26 @@ body {
 
 .product-card .price {
   font-size: 1.1rem;
-  color: var(--primary-color);
+  color: var(--primary-color) !important;
   font-weight: 600;
   margin-bottom: 15px;
 }
 
 .add_to_cart {
   background-color: var(--primary-color);
-  color: #fff;
-  padding: 0.27rem 0.75rem; /* same as .btn & .btn-secondary */
+  color: #3b3b3b;
+  padding: 0.5rem 0.1rem; /* same as .btn & .btn-secondary */
   border: none;
-  margin-top: auto;
+  width: fit-content;
+  margin: 0 auto;
   border-radius: 0.375rem; /* Bootstrap default radius */
-  transition: 0.3s;
+  transition: all 0.3s ease-in;
 }
 
 .add_to_cart:hover {
-  background-color: var(--highlight-color);
+  background-color:black;
   cursor: pointer;
+  color: #ffffff;
 }
 
 /* ===================== */
@@ -339,7 +330,7 @@ a {
 /*Shop*/
 /*======================*/
 .shop {
-  background-image: url(../assest/images/shop_hero.jpg);
+  background-image: url(../assest/images/ihor-rapita-Dy_WYJHrhO8-unsplash.jpg);
 }
 
 /*======================*/
@@ -351,7 +342,7 @@ a {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: url("../assest/images/about_hero.jpg") center/cover no-repeat;
+  background: url("../assest/images/ihor-rapita-m2chM9O-ZHs-unsplash.jpg") center/cover no-repeat;
   min-height: 50vh;
   background-size: cover; /* show full image */
   background-position: center;
@@ -364,13 +355,13 @@ a {
 /*======================*/
 
 .accessories {
-  background-image: url(../assest/images/accessories_hero.jpg);
+  background-image: url(../assest/images/airpods2-min.jpg);
 }
 .men {
-  background-image: url(../assest/images/men_hero.jpg);
+  background-image: url(../assest/images/mediamodifier-elbKS4DY21g-unsplash.jpg);
 }
 .women {
-  background-image: url(../assest/images/women_hero2.jpg);
+  background-image: url(../assest/images/or-hakim-9cm19kj-8M0-unsplash.jpg);
 }
 
 /*======================*/
